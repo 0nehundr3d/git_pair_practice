@@ -1,8 +1,8 @@
-class Test
-    attr_reader :int, :str
+class Reef
+    attr_reader :type, :color
 
-    def initialize(int, str)
-        @int = int 
-        @str = str
+    def initialize(info)
+        @type = info[:type]
+        @color = info[:color]
     end
 end
