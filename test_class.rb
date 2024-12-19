@@ -2,7 +2,7 @@
 class ReefTest
     attr_reader :type, :color, :int, :str, :str2
 
-    def initialize(info)
+    def initialize(info, str, int)
         @type = info[:type]
         @color = info[:color]
         @int = int
