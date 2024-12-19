@@ -1,9 +1,12 @@
-class Test2
-    attr_reader :int, :str, :int2
 
-    def initialize(int, str)
-        @int = int 
+class ReefTest
+    attr_reader :type, :color, :int, :str, :str2
+
+    def initialize(info)
+        @type = info[:type]
+        @color = info[:color]
+        @int = int
         @str = str
-        @int2 = @int*12
+        @str2 = @int*12
     end
 end
