@@ -4,6 +4,6 @@ class Test2
     def initialize(int, str)
         @int = int 
         @str = str
-        @int1 = @int*12
+        @int2 = @int*12
     end
 end
